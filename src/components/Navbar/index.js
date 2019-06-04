@@ -14,9 +14,9 @@ const Navbar = ({name, closeSesion}) => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <NavLink exact to="/" className='nav-item nav-link'>Episodios</NavLink>
-          <NavLink exact to="/characters/" className="nav-item nav-link">Personajes</NavLink>
-          <NavLink exact to="/episodecommon/" className="nav-item nav-link">Episodios en comun</NavLink>
+          <NavLink exact to="/project-react/" className='nav-item nav-link'>Episodios</NavLink>
+          <NavLink exact to="/project-react/characters/" className="nav-item nav-link">Personajes</NavLink>
+          <NavLink exact to="/project-react/episodecommon/" className="nav-item nav-link">Episodios en comun</NavLink>
         </div>
       </div>
 

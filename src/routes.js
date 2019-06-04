@@ -10,11 +10,11 @@ import EpisodeCommonPage from './pages/EpisodeCommonPage'
 
 const Routes = () => (
   <Router>
-    <NotLoggedInRoute exact path='/register' component={RegisterPage} />
-    <NotLoggedInRoute exact path='/login' component={LoginPage} />
-    <PrivateRoute exact path='/' component={HomePage} />
-    <PrivateRoute exact path='/characters/' component={CharacterPage} />
-    <PrivateRoute exact path='/episodecommon/' component={EpisodeCommonPage} />
+    <NotLoggedInRoute exact path='/project-react/register' component={RegisterPage} />
+    <NotLoggedInRoute exact path='/project-react/login' component={LoginPage} />
+    <PrivateRoute exact path='/project-react/' component={HomePage} />
+    <PrivateRoute exact path='/project-react/characters/' component={CharacterPage} />
+    <PrivateRoute exact path='/project-react/episodecommon/' component={EpisodeCommonPage} />
   </Router>
 )
 export default Routes

@@ -79,7 +79,7 @@ const LoginContainer = (props) => {
               />
             </Form.Group>
             <Form.Group>
-              <Link to='/register'>Registrarse</Link>
+              <Link to='/project-react/register'>Registrarse</Link>
             </Form.Group>
             <Button variant="primary" type="submit">Iniciar Sesion</Button>
           </Form>

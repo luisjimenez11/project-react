@@ -24,7 +24,7 @@ const NotLoggedInRoute = props => {
       {...rest}
       render={props => {
         if (loggedIn || userId) {
-          return <Redirect to='/' />
+          return <Redirect to='/project-react' />
         } else {
           return <Component {...props} />
         }
